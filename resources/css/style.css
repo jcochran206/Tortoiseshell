@@ -1,0 +1,51 @@
+/* universal to sheet */
+html {
+  font-size: 18px;
+}
+body{
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+h1, h4{
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Company Header */
+
+.company{
+  background-color: teal;
+  align-items: center;
+  padding: .66rem 0 .66rem 0.5rem;
+  color: white;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav {
+    background-color: blue;
+    color: white;
+    display: baseline;
+    align-items: flex-end;
+    padding: 2rem 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: right;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* products section */
