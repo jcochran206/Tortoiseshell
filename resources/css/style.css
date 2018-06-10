@@ -86,6 +86,11 @@ nav li{
 
 
 /* products section */
+.support-container{
+  display: flex;
+  justify-content: center;
+}
+
 .Products {
   display: flex;
   justify-content: center;
@@ -102,7 +107,42 @@ nav li{
   text-align: center;
 }
 
-.product-image {
+.product-image img{
   width: 5rem;
   margin-bottom: 1rem;
+}
+
+.product-image .paper{
+  width: 3.5rem;
+}
+
+.info-section {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info-section p {
+  padding: 1rem 0;
+}
+
+.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
